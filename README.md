@@ -14,3 +14,6 @@ curl --location 'http://localhost:3000/api/assistant/ask' \
 --data '{
     "message": "Do you have some kind of earphone in stock?"
   }'
+
+# Environment Variable Guide
+1. Create a variable named as `OPENAI_API_KEY` and put your open-ai api key.
